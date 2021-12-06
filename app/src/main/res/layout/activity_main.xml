@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primaryDarkColor"
+    android:background="@color/secondaryColor"
+    android:backgroundTint="@color/primaryColor"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -43,6 +44,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="36dp"
             android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/secondaryTextColor"
             android:text="@string/cringe" />
 
         <Button
@@ -55,6 +57,7 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="47dp"
             android:layout_toStartOf="@+id/cringe"
+            android:backgroundTint="@color/secondaryTextColor"
             android:text="@string/kek" />
     </RelativeLayout>
 
@@ -76,6 +79,7 @@
         android:id="@+id/generateButton"
         android:layout_width="217dp"
         android:layout_height="82dp"
+        android:backgroundTint="@color/secondaryTextColor"
         android:text="@string/generate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
