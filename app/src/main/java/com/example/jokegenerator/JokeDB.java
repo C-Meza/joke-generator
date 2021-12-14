@@ -3,6 +3,7 @@ package com.example.jokegenerator;
 public class JokeDB {
 
 
+
     public static final String[] dadJokes = {
             "I'm afraid for the calendar. Its days are numbered.", "My wife said I should do lunges to stay in shape. \nThat would be a big step forward.",
             "Why do fathers take an extra pair of socks when they go golfing? \nIn case they get a hole in one!",
@@ -21,76 +22,49 @@ public class JokeDB {
 
     };
 
-    public  static final String[] antiJokes = {
+    public static final String[] antiJokes = {
 
-      /* What do you call a joke that isn’t funny?
-A sentence.
-2. What did one stranger say to the other?
-Nothing. They didn’t know each other.
-3. How do you confuse someone?
-Paint yourself green and throw forks at them.
-4. What did one Frenchman say to the other Frenchman?
-I don’t know; I don’t speak French.
-5. Why did the swan hiss?
-Biologically, it’s coded in their genes to do so when threatened.
-6. What do you call 100 lawyers at the bottom of the ocean?
-A horrible boating accident.
-7. Why did the teacher tell Jamie she was wearing too much makeup?
-Because she was wearing too much makeup.
-8. I told my friend she was drawing her eyebrows too high.
-She looked surprised.
-9. What do you call a pigeon that can’t find its way back home?
-A pigeon.
-10. What’s worse than finding a worm in your apple?
-Being robbed.
-11. Why did Benjamin get sick after eating too much ice cream?
-He was lactose intolerant.
-12. How is a laser beam similar to a goldfish?
-Neither one can whistle.
-13. I accused my husband of being too immature.
-Then he told me to get out of his fort.
-14. How do you get someone to stop swinging on the tire swing?
-Snip the rope.
-15. What did the man say when he lost his truck?
-“Where’s my truck?”*/
+       "What do you call a joke that isn’t funny?"+ "\nA sentence.",  "What did one stranger say to the other? \nNothing. They didn’t know each other.", "How do you confuse someone? \nPaint yourself green and throw forks at them.", "What did one Frenchman say to the other Frenchman? \nI don’t know; I don’t speak French.",
+ "Why did the swan hiss? \nBiologically, it’s coded in their genes to do so when threatened.", "What do you call 100 lawyers at the bottom of the ocean? \nA horrible boating accident.",
+ "Why did the teacher tell Jamie she was wearing too much makeup? \nBecause she was wearing too much makeup.", "I told my friend she was drawing her eyebrows too high. She looked surprised.",
+ "What do you call a pigeon that can’t find its way back home? \nA pigeon.", "What’s worse than finding a worm in your apple? \nBeing robbed.",
+ "Why did Benjamin get sick after eating too much ice cream? \nHe was lactose intolerant.", "How is a laser beam similar to a goldfish? \nNeither one can whistle.",
+ "I accused my husband of being too immature. \nThen he told me to get out of his fort.", "How do you get someone to stop swinging on the tire swing? \nSnip the rope.",
+ "What did the man say when he lost his truck? \"Where’s my truck?\""
     };
 
 
     public  static final String[] oneLiners = {
 
-            /*
-            "Light travels faster than sound. This is why some people appear bright until they open their mouths.",
-            "Money talks. But all mine ever says is goodbye."
+            "Light travels faster than sound. This is why some people appear bright until they open their mouths." + "\nMoney talks. But all mine ever says is goodbye.",
 
-"Life's like a bird. It's pretty cute until it poops on your head."
+"Life's like a bird. \nIt's pretty cute until it poops on your head.",
 
-"I'm skeptical of anyone who tells me they do yoga every day. That's a bit of a stretch."
+"I'm skeptical of anyone who tells me they do yoga every day. \nThat's a bit of a stretch.",
 
-"A computer once beat me at chess. But it was no match for me at kickboxing."
+"A computer once beat me at chess. \nBut it was no match for me at kickboxing.",
 
-"I have a lot of growing up to do. I realized that the other day inside my fort."
+"I have a lot of growing up to do. \nI realized that the other day inside my fort.",
 
 
-"My therapist says I have a preoccupation with vengeance. We'll see about that."
+"My therapist says I have a preoccupation with vengeance. \nWe'll see about that.",
 
-"Money can't buy you happiness? Well, check this out, I bought myself a Happy Meal!"
+"Money can't buy you happiness? \nWell, check this out, I bought myself a Happy Meal!",
 
-"The easiest time to add insult to injury is when you're signing somebody's cast."
+"The easiest time to add insult to injury is when you're signing somebody's cast.",
 
+"Letting go of a loved one can be hard. \nBut sometimes, it's the only way to survive a rock climbing catastrophe.",
 
-"Letting go of a loved one can be hard. But sometimes, it's the only way to survive a rock climbing catastrophe."
+"A positive attitude may not solve all your problems. \nBut it will annoy enough people to make it worth the effort.",
 
-"A positive attitude may not solve all your problems. But it will annoy enough people to make it worth the effort."
+"Always borrow money from a pessimist. \nHe won't expect it back.",
 
-"Always borrow money from a pessimist. He won't expect it back."
+"Build a man a fire, and he'll be warm for a day. \nSet a man on fire, and he'll be warm for the rest of his life.",
 
-"Build a man a fire, and he'll be warm for a day. Set a man on fire, and he'll be warm for the rest of his life."
+"I used to be indecisive. \nNow I'm not sure.",
 
-"I used to be indecisive. Now I'm not sure."
-
-"Women should not have children after 35. Really, 35 children are enough."            */
+            "Women should not have children after 35. \nReally, 35 children are enough."
     };
 
-  //TODO /*https://www.techiedelight.com/merge-multiple-arrays-java/ */ public static final List<String>
 
 }

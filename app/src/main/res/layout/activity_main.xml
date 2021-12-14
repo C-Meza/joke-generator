@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/secondaryColor"
     android:backgroundTint="@color/primaryColor"
+    android:onClick="onClick"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -80,6 +81,7 @@
         android:layout_width="217dp"
         android:layout_height="82dp"
         android:backgroundTint="@color/secondaryTextColor"
+        android:onClick="onClick"
         android:text="@string/generate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
