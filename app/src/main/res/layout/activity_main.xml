@@ -37,7 +37,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="@color/primaryTextColor" />
 
-        <Button
+        <!--<Button
             android:id="@+id/cringe"
             android:layout_width="140dp"
             android:layout_height="93dp"
@@ -59,7 +59,7 @@
             android:layout_marginEnd="47dp"
             android:layout_toStartOf="@+id/cringe"
             android:backgroundTint="@color/secondaryTextColor"
-            android:text="@string/kek" />
+            android:text="@string/kek" />-->
     </RelativeLayout>
 
     <TextView

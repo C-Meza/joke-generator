@@ -31,20 +31,12 @@ public class MainActivity extends AppCompatActivity {
         getJokesFromPref();
         generatedJokeTV = findViewById(R.id.generatedJoke);
         generatedJokeTV.setText(R.string.test_string);
-        /*TODO
-         try{
-       if(generatedJokeTV.getText().equals(R.string.test_string)){
-            getString(genJokeKey);
-        }catch(NumberFormatException e){
-         Log.e("Number Format Exception", "Error converting text to values");
-        }
-
-        }*/
+        getString(genJokeKey);
     }
 
     private String getString(String key){
         SharedPreferences genJokePrefs = getApplicationContext().getSharedPreferences("genJokePrefs", android.content.Context.MODE_PRIVATE);
-        return genJokePrefs.getString(key, "");
+        return genJokePrefs.getString(key, String.valueOf(R.string.test_string));
     }
 
     private void saveString(String key, String value){
